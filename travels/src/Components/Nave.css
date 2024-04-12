@@ -1,0 +1,39 @@
+nav {
+    background-color: #333; /* Background color of the navigation bar */
+    padding: 10px 20px; /* Padding around the content */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Align items horizontally with space between */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .logo {
+    color: #fff; /* Text color of the logo */
+    font-size: 24px; /* Font size of the logo */
+    font-weight: bold; /* Bold font weight for emphasis */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox layout */
+  }
+  
+  li {
+    margin-right: 20px; /* Spacing between menu items */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color of the links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  a:hover {
+    color: #ffd700; /* Change text color on hover */
+  }
+  
